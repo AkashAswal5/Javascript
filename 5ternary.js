@@ -2,6 +2,9 @@
 ternary operator 
 */
 
-let age=prompt("enter your age" ,"18");
-let ans=age>=18 ? "you are adult":"you are kid";
-alert("your age is :"+ age);
+let age = prompt("Enter your age", "18");
+
+age = Number(age); // Convert the input to a number
+
+let ans = age >= 18 ? "You are an adult" : "You are a kid";
+alert(`Your age is: ${age}. ${ans}`);
