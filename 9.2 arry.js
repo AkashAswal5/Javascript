@@ -10,3 +10,13 @@ function reverseArray(arr) {
 
 let array = [1, 2, 3, 4, 5];
 console.log(reverseArray(array)); // Output: [5, 4, 3, 2, 1]
+
+
+// Example array
+let arr = [1, 2, 3, 4, 5];
+
+// Reverse the array
+arr.reverse();
+
+// Print the reversed array
+console.log(arr); // Output: [5, 4, 3, 2, 1]
