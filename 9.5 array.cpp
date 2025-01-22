@@ -28,5 +28,4 @@ console.log("For Each method");
 numbers.forEach((n) => {
       console.log(n);
 }
-
 )
