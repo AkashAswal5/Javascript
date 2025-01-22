@@ -22,7 +22,6 @@ console.log(numbers); // otput: [1,2,3]
 for (let i = 0; i < numbers.length; i++) {
       console.log(numbers[i]);
 }
-
 console.log("For Each method");
 // for each method
 numbers.forEach((n) => {
