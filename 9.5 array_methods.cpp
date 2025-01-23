@@ -28,3 +28,19 @@ numbers.forEach((n) => {
       console.log(n);
 }
 )
+
+
+
+
+// concat
+let arr1=[1,2,3,4,5];
+let arr2=[11,12,13,14,15];
+
+let arr3= arr1.concat(arr2);
+console.log(arr3);
+
+
+//slice
+
+let newarr=arr1.slice(1,4);
+console.log(newarr);
