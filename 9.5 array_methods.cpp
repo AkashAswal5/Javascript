@@ -44,3 +44,10 @@ console.log(arr3);
 
 let newarr=arr1.slice(1,4);
 console.log(newarr);
+
+
+// splice
+arr2=[11,12,13,14,15];
+let newarr1=arr2.splice(1,2);
+console.log(arr2);  // [ 11, 14, 15 ]
+console.log(newarr1); //  [ 12, 13 ]
