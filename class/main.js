@@ -45,3 +45,31 @@ const: block scope
 // 3) boolean
 //  4) object  
 //  5) undefine
+
+a=['abc' , 1,34,'abcd', 'true']
+
+a.forEach((data)=>{
+    if(typeof data =='number'){
+        console.log(data);
+    }
+})
+
+for(let i ; i<a.length ; i++){
+    if (typeof a[i]==='number'){
+        console.log(a[i]);
+    }
+}
+
+a.sort();
+console.log(a);
+
+// destructuring
+b=a;
+b.push(3);
+console.log(a);
+
+// destructing
+a=['abc' , 1,34] //shallow copy
+
+console.log('5'===5);
+console.log('5'==5);
