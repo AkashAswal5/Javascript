@@ -1,0 +1,19 @@
+<!--Modify the script so that the text inside <h1> is set to "JavaScript is awesome!" when the user hovers over it.-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Content manipulation through JS (DOM)!</title>
+    </head>
+    <body>
+        <h1 id="heading1"> hello JS Lover, how was JS!</h1>
+        <script>
+            document.getElementById("heading1").addEventListener("mouseover",function(){
+                document.getElementById("heading1").innerText="javascript is awesome!";
+            });
+        </script>
+  
+        
+    </body>
+    </html>
