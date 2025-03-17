@@ -1,0 +1,19 @@
+<!--Add a button below the <h1> element. When the button is clicked, change the <h1> text to "Button Clicked!".-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML content manipulation through js (DOM) :- </title>
+    </head>
+    <body>
+        <h1 id="heading1"> hello World</h1>
+        <button id="mybutton"> Click Me! </button>
+        <script>
+            document.getElementById("mybutton").addEventListener("click",function(){
+                document.getElementById("heading1").innerText="Button Clicked!";
+            });
+        </script>
+    </body>
+    </html>
+
