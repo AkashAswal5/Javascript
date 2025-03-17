@@ -1,0 +1,18 @@
+<!-- Write a script to change the text inside <h1> to "Good Morning!" after 5 seconds.-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML content manipulation through JS!</title>
+    </head>
+    <body>
+        <h1 id="heading"> hello js lover! </h1>
+        <script>
+            setTimeout(function(){
+                document.getElementById("heading").innerText="Good morning!"
+            },5000)
+        </script>
+        
+    </body>
+    </html>
